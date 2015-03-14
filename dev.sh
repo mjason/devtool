@@ -1,6 +1,8 @@
 # install dev tool
 
-sudo apt-get -y install vim tmux exuberant-ctags tree
+sudo locale-gen zh_CN.UTF-8
+
+sudo apt-get -y install git vim tmux exuberant-ctags tree
 
 echo "setting vim"
 git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim

@@ -21,12 +21,10 @@ set shiftwidth=2
 set autoindent
 
 set list
-set listchars=trail:·,tab:··
+set listchars=trail:-,tab:--
 
 set nu
 set cursorline
 
-let &t_SI = "\<Esc>Ptmux;\<Esc>\<Esc>]50;CursorShape=1\x7\<Esc>\\"
-let &t_EI = "\<Esc>Ptmux;\<Esc>\<Esc>]50;CursorShape=0\x7\<Esc>\\"
 hi clear CursorLine
 highlight LineNr ctermfg=grey
